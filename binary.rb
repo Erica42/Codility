@@ -1,4 +1,4 @@
-N = 1041
+#N = 1041
 
 def binary(num)
   str = ""
@@ -34,7 +34,7 @@ def solution(n)
   p count_gap(binary(n))
 end
 
-solution(N)
+#solution(N)
 
     #count the 0s in each gap when you get to 1 stop
     #compare count to most if greater than most = count
